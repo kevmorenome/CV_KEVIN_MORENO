@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad Formulario</title>
+</head>
+<body>
+<h1>Formulario</h1>
+
+  <form action="#" method="post">
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required><br><br>
+
+    <label for="apellido">Apellido:</label><br>
+    <input type="text" id="apellido" name="apellido" placeholder="Tu apellido" required><br><br>
+
+    <label for="tipoId">Tipo de identificación:</label><br>
+    <select id="tipoId" name="tipo_identificacion" required>
+      <option value="">Selecciona una opción</option>
+      <option value="CC">CC</option>
+      <option value="TI">TI</option>
+      <option value="PA">PA</option>
+    </select><br><br>
+
+    <label for="numeroId">Número de identificación:</label><br>
+    <input type="text" id="numeroId" name="numero_identificacion" placeholder="Ej: 123456789" required><br><br>
+
+    <label for="fechaNac">Fecha de nacimiento:</label><br>
+    <input type="date" id="fechaNac" name="fecha_nacimiento" required><br><br>
+
+    <label for="celular">Número de celular:</label><br>
+    <input type="tel" id="celular" name="numero_celular" placeholder="Ej: 3001234567" required><br><br>
+
+    <label>
+      <input type="checkbox" id="politica" name="politica" required>
+      Acepto la política de tratamiento de datos
+    </label><br><br>
+
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+</html>
+
+
