@@ -154,3 +154,12 @@ footer {
 footer p {
     margin-bottom: 5px;
 }
+
+footer a {
+  color: #93c5fd;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
