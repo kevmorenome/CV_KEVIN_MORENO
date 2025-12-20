@@ -118,6 +118,22 @@ article p {
     gap: 8px;
 }
 
+.boton-proyecto {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 16px;
+    background-color: #3b82f6;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.boton-proyecto:hover {
+    background-color: #2563eb;
+}
+
+
 #competencias p,
 #habilidades p {
     background-color: #f1f5f9;
